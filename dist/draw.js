@@ -164,7 +164,7 @@ var moveHero = function () {
     context.moveTo(currentX * tileLength, currentY * tileLength);
     context.drawImage(hero, currentX * tileLength + 5, currentY * tileLength + 5, tileLength - 10, tileLength - 10);
     if (currentX == enemyX && currentY == enemyY) {
-        alert("Game over. You have failed to rescue the princess!");
+        alert("Game over. You have failed to rescue the princess! OMG, now murdered.");
         window.location.reload();
     }
     if (currentX == 9 && currentY == 9) {
@@ -176,7 +176,7 @@ var moveEnemy = function () {
     context.moveTo(enemyX * tileLength, enemyY * tileLength);
     context.drawImage(enemy, enemyX * tileLength + 5, enemyY * tileLength + 5, tileLength - 10, tileLength - 10);
     if (currentX == enemyX && currentY == enemyY) {
-        alert("Game over. You have failed to rescue the princess!");
+        alert("Game over. You have failed to rescue the princess! OMG, now murdered.");
         window.location.reload();
     }
 };
