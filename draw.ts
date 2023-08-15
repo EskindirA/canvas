@@ -176,7 +176,7 @@ const moveHero = () => {
   );
 
   if (currentX == enemyX && currentY == enemyY) {
-    alert("Game over. You have failed to rescue the princess!");
+    alert("Game over. You have failed to rescue the princess! OMG, now murdered.");
     window.location.reload();
   }
   if (currentX == 9 && currentY == 9) {
@@ -196,7 +196,7 @@ const moveEnemy = () => {
   );
 
   if (currentX == enemyX && currentY == enemyY) {
-    alert("Game over. You have failed to rescue the princess!");
+    alert("Game over. You have failed to rescue the princess! OMG, now murdered.");
     window.location.reload();
   }
 };
